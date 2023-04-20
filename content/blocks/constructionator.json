@@ -19,6 +19,7 @@ plans: [
     unit: "yius"
     time: 100
     requirements: [
+  sandstone/50
       xyz/1250
     sand/500
       coal/150
