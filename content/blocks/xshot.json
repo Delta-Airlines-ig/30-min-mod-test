@@ -1,0 +1,43 @@
+type: ItemTurret
+name: xshot
+targetGround: true
+outlines:false
+health: 1500
+size: 1
+inaccuracy: 360
+reload: 10
+placeEffect: bigShockwave
+recoilAmount: 500
+shootCone: 50
+rotateSpeed: 1000
+range: 200
+shootEffect:scatheExplosion
+targetAir: true
+	          shoot: {
+ type: shootPattern
+  shots: 20
+  shotDelay: 0
+spread: 2
+   }
+ammoTypes: {
+	 sandstone: {
+		type:BasicBulletType
+		speed: 5
+		damage: 10
+		collideTerrain:false
+	
+		homingPower: 0.1
+		homingRange: 500
+		lifetime:1000
+		hitShake:3
+
+	}
+}
+requirements: [
+  copper/500
+  sand/5
+  sandstone/100
+  xyz/50
+	coal/200
+]
+category: turret
