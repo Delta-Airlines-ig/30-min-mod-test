@@ -1,0 +1,14 @@
+type: Wall
+name:sandstonewallfj
+size: 3
+health: 117
+placeEffect: scatheExplosion
+emitLight: true
+category:defense
+requirements: [
+	sandstone/89
+]
+destructible:true
+buildCostMultiplier:4
+chanceDeflect:1
+buildTime:0.1
