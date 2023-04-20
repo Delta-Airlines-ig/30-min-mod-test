@@ -1,0 +1,22 @@
+type: genericCrafter
+name: sandstone creator
+craftTime: 25
+size: 2
+hasPower: false
+hasLiquids: false
+consumes: {
+  items: {
+    items: [
+      sand/3
+    ]
+  }
+  power: 0
+}
+craftEffect: smokeCloud
+requirements: [
+  sand/10
+  copper/10
+
+]
+category: crafting
+outputItem: sandstone/1

@@ -1,0 +1,7 @@
+type: OreBlock
+variants: 1
+itemDrop: xyz
+playerUnmineable:false
+needsSurface:true
+oreDefault:true
+oreScale: 40
