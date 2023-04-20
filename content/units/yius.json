@@ -1,0 +1,48 @@
+type:mech
+name:yius
+description:151532523671236dhyfgsg
+health:100000
+armour:-10
+size:1
+speed:1
+drag:1
+weapons:
+{
+  name: amogus
+      mirror:true
+    alternate:true
+	  predictTarget:false
+    x: -30
+    y: 0
+  shoot: {
+ type: shootPattern
+  shots: 30
+  shotDelay: 0
+spread: 20
+   }
+reload: 120
+bullet: {
+type: RailBulletType
+	
+	    	    hitSound:explosionbig
+	   
+      damage: 1000
+		    
+endEffect: {
+		 type:MultiEffect
+		 effects:[massiveExplosion, fire, bigShockwave, scatheLight, scatheSlash, scatheExplosion, titanSmoke, instBomb, launchPod]
+	 }
+
+		    
+lineEffect: {
+		 type:MultiEffect
+		 effects:[massiveExplosion, fire, bigShockwave, scatheLight, scatheSlash, scatheExplosion, titanSmoke, instBomb, launchPod]
+	 }
+	  
+length:500
+	  inaccuracy:90
+	  collideTerrain:false
+	  width: 5
+	height: 10
+    }
+}
