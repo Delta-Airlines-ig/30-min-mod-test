@@ -1,0 +1,59 @@
+type:mech
+name:xius
+description:151532523671236
+health:23
+armour:10000
+speed:1
+drag:-1
+weapons:
+{
+  name:missile
+      mirror:true
+    alternate:true
+	  predictTarget:false
+    x: -30
+    y: 0
+  shoot: {
+ type: shootPattern
+  shots: 30
+  shotDelay: 2
+spread: 20
+   }
+reload: 120
+bullet: {
+type: MissileBulletType
+	splashDamageRadius:75
+	splashDamage:450
+	homingPower:0.1
+	    	    hitSound:explosionbig
+	    despawnSound:explosionbig
+	    trailColor:5e5e5e
+	    trailEffect:{
+		  type:MultiEffect
+		 effects:[smokeCloud, launchPod, titanSmoke, massiveExplosion, bigShockwave]
+	 }
+	weaveScale:0.1
+	weaveMag:5
+	lightning:25
+	lightningDamage:5
+	trailInterval:2
+	trailChance:1
+      damage: 1000
+		    despawnEffect: {
+		 type:MultiEffect
+		 effects:[massiveExplosion, fire, bigShockwave, scatheLight, scatheSlash, scatheExplosion, titanSmoke, instBomb, launchPod]
+	 }
+
+		    hitEffect: {
+		 type:MultiEffect
+		 effects:[massiveExplosion, fire, bigShockwave, scatheLight, scatheSlash, scatheExplosion, titanSmoke, instBomb, launchPod]
+	 }
+	  speed: 10
+	  color: 4A4A4A
+	  lifetime: 70
+	  inaccuracy:45
+	  collideTerrain:false
+	  width: 5
+	height: 10
+    }
+}
