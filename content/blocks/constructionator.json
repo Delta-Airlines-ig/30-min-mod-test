@@ -1,0 +1,37 @@
+type: UnitFactory
+name:constructionator
+size: 2
+consumes: {
+  power: 2
+}
+plans: [
+  {
+    unit: "xius"
+    time: 1
+    requirements: [
+      xyz/250
+    sandstone/150
+    sand/2
+
+    ]
+  }
+{
+    unit: "yius"
+    time: 100
+    requirements: [
+      xyz/1250
+    sand/500
+      coal/150
+    ]
+  }
+ 
+]
+requirements: [
+
+  titanium/1
+  sand/5
+  xyz/2
+  sandstone/150
+  coal/250
+]
+category: units
